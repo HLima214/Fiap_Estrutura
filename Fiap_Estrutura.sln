@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap_Estrutura_Model", "Fiap_Estrutura_Model\Fiap_Estrutura_Model.csproj", "{CFD408C7-555B-459A-8B5D-1680B23248B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap_Estrutura_Model", "Fiap_Estrutura_Model\Fiap_Estrutura_Model.csproj", "{CFD408C7-555B-459A-8B5D-1680B23248B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap_Estrutura_UI", "Fiap_Estrutura_UI\Fiap_Estrutura_UI.csproj", "{6B7E57FE-6AF2-44E5-962A-A399D3C56231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fiap_Estrutura_UI", "Fiap_Estrutura_UI\Fiap_Estrutura_UI.csproj", "{6B7E57FE-6AF2-44E5-962A-A399D3C56231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap_Estrutura_Controller", "Fiap_Estrutura_Controller\Fiap_Estrutura_Controller.csproj", "{D7D8D274-2F30-49B0-B25C-D8151D0C6F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap_Estrutura_Repository", "Fiap_Estrutura_Repository\Fiap_Estrutura_Repository.csproj", "{61A756EA-A366-48EF-BB3C-6F735AB0039B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{6B7E57FE-6AF2-44E5-962A-A399D3C56231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B7E57FE-6AF2-44E5-962A-A399D3C56231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B7E57FE-6AF2-44E5-962A-A399D3C56231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D8D274-2F30-49B0-B25C-D8151D0C6F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D8D274-2F30-49B0-B25C-D8151D0C6F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D8D274-2F30-49B0-B25C-D8151D0C6F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D8D274-2F30-49B0-B25C-D8151D0C6F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A756EA-A366-48EF-BB3C-6F735AB0039B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A756EA-A366-48EF-BB3C-6F735AB0039B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A756EA-A366-48EF-BB3C-6F735AB0039B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A756EA-A366-48EF-BB3C-6F735AB0039B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

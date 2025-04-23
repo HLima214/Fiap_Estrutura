@@ -9,6 +9,7 @@ namespace Fiap_Estrutura_Model
     public  class Pessoa
     {
         public string cpf { get; set; }
+
         public string nome { get; set; }
 
         public DateOnly dtNascimento { get; set; }

@@ -1,6 +1,7 @@
 ﻿
 using Fiap_Estrutura_Model;
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using Fiap_Estrutura_Controller;
 
-Funcionario func = new Funcionario();
+UsuarioController controler = new UsuarioController();
+
+controler.validarUsuario("Fabinho", "1234");
